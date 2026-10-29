@@ -1,0 +1,18 @@
+# Local Wi-Fi settings
+/secrets.h
+.env
+.env.*
+!.env.example
+
+# Local backups, logs and generated firmware
+*.bak
+*.log
+*.o
+*.a
+*.elf
+*.map
+*.bin
+*.exe
+.validation/
+build/
+__pycache__/
